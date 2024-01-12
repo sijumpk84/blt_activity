@@ -17,7 +17,12 @@ class MyCustomCommands extends BltTasks {
    * @description This is an example command.
    */
   public function testing($value) {
-    $this->say("The passed value is " . $value);
+    $message = "no message in config file";
+    if ($this->getConfig()->has('my-custom-config.message-to-show')) {
+      $message = $this->getConfigValue('my-custom-config.message-to-show');
+    }
+
+    $this->say($message . ". The passed value is " . $value);
   }
 
   /**
