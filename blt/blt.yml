@@ -1,0 +1,8 @@
+project:
+  machine_name: d10blt
+command-hooks:
+  post-setup-build:
+    dir: '${repo.root}'
+    command: blt/scripts/post_setup_commands.sh
+my-custom-config:
+  message-to-show: Message  from blt.yml
