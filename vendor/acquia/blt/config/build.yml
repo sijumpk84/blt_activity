@@ -137,7 +137,7 @@ project:
     protocol: http
     uri: ${project.local.protocol}://${project.local.hostname}
   # Used for enforcing correct git commit msg syntax.
-  prefix: CHANGEME
+  prefix: BLTTEST
   profile:
     name: minimal
 

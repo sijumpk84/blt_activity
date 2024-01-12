@@ -4,7 +4,7 @@ command-hooks:
   post-setup-build:
     dir: '${repo.root}'
     command: blt/scripts/post_setup_commands.sh
-  post-deploy-build:
-    dir: '${repo.root}/deploy'
-    # command: blt/scripts/custom_commands.sh
-    command: 'echo "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"'
+  # post-deploy-build:
+  #   dir: '${repo.root}/deploy'
+  #   # command: blt/scripts/custom_commands.sh
+  #   command: 'echo "this is a test message. this is a test message. this is a test message. "'
