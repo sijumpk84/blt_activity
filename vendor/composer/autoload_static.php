@@ -140,6 +140,7 @@ class ComposerStaticInit2f25d6ae99592c9f963cc40ff60cf267
             'Drupal\\Composer\\Plugin\\Scaffold\\' => 32,
             'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 38,
             'Drupal\\Component\\' => 17,
+            'Drupal\\' => 7,
             'DrupalCodeGenerator\\' => 20,
             'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
@@ -480,6 +481,10 @@ class ComposerStaticInit2f25d6ae99592c9f963cc40ff60cf267
         'Drupal\\Component\\' => 
         array (
             0 => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Component',
+        ),
+        'Drupal\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/blt/src',
         ),
         'DrupalCodeGenerator\\' => 
         array (

@@ -26,6 +26,11 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Drupal\\": "blt/src/"
+        }
+    },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
